@@ -700,7 +700,7 @@ def graph_reaction_profile(graph_data, log, options, plt):
             ax.set_title(title)
         else:
             ax.set_title("Reaction Profile")
-    ax.set_ylabel(r"$G_{rel}$ (kcal / mol)")
+    ax.set_ylabel(r"∆$G$ (kcal / mol)")
     plt.minorticks_on()
     ax.tick_params(axis='x', which='minor', bottom=False)
     ax.tick_params(which='minor', labelright=True, right=True)
